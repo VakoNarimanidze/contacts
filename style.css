@@ -8,12 +8,12 @@ body {
 }
 .left_side {
   float: left;
-  margin-left: 80px;
+  margin-left: 120px;
 }
 .left_side h3 {
   color: white;
   font-size: 25px;
-  margin-top: 60px;
+  margin-top: 100px;
   margin-bottom: 20px;
 }
 .left_side p {
@@ -28,7 +28,97 @@ body {
   height: 180px;
   border-radius: 25px;
   margin-bottom: 30px;
+  cursor: pointer;
 }
 .icons {
+  vertical-align: middle;
   cursor: pointer;
+  color: white;
+}
+.container {
+  float: right;
+}
+.loginbox {
+  width: 320px;
+  height: 420px;
+  left: 80%;
+  top: 30%;
+  margin-left: -13%;
+  position: absolute;
+  margin-top: 0%;
+  size: 50px;
+}
+
+.loginbox p {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+.loginbox input {
+  display: inline;
+  font-weight: normal;
+  font-size: 29px;
+  text-align: center;
+  margin-bottom: 34px;
+}
+
+.loginbox input[type='text'] {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+.loginbox input[type='text'] {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+.loginbox input[type='text'] {
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+.loginbox input[type='email'] {
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+.loginbox input[type='number'] {
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+
+button {
+  background-color: #fff;
+  padding: 10px 35px 10px 35px;
+  border-radius: 20px;
+  border-color: white;
+  cursor: pointer;
+}
+.container button {
+  margin-right: 10px;
 }
