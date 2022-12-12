@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #0020f4;
+}
+.left_side {
+  float: left;
+  margin-left: 80px;
+}
+.left_side h3 {
+  color: white;
+  font-size: 25px;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+.left_side p {
+  width: 463px;
+  height: 197px;
+  color: white;
+  font-size: 16px;
+  border-color: aliceblue;
+}
+.map {
+  width: 400x;
+  height: 180px;
+  border-radius: 25px;
+  margin-bottom: 30px;
+}
+.icons {
+  cursor: pointer;
+}
